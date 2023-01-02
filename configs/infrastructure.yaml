@@ -1,0 +1,12 @@
+- connection:
+    connection_type: RPyCConnection
+    connection_details:
+      ip: 10.190.163.62
+  tested_adapter_id: 8086:1452,1
+  label: sut
+- connection:
+    connection_type: RPyCConnection
+    connection_details:
+      ip: 10.190.163.69
+  tested_adapter_id: ens785f0
+  label: client

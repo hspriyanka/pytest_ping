@@ -1,0 +1,6 @@
+--index-url https://ubit-artifactory-or.intel.com/artifactory/api/pypi/epg-sw-mfd-or-repos/simple
+pytest==7.2.0
+mfd-connect
+pyyaml
+mfd-ping
+mfd-network-adapter
