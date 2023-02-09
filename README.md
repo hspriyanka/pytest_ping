@@ -1,10 +1,5 @@
-# pytest_ping
 
-Prepare: prepare_tested_ip
-Run:run ping
-Tear down: remove tested IP
-Python -m pytest <infra cfg> <test_cfg>
 
 Example 
 
-Python -m pytest <infra_cfg> <test_cfg>
+python -m  pytest -v pytest_ping/ --infrastructure-file=pytest_ping/configs/infrastructure.yaml --test-config-file=pytest_ping/configs/test_cfg.yaml
